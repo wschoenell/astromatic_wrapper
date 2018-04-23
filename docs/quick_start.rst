@@ -76,7 +76,7 @@ FITS LDAC standard, which is slightly different than standard FITS tables. Astro
 provides an I/O scheme to interface with FITS LDAC files in the :ref:`using_fits_ldac`.
 To change the output type to FITS LDAC from the default ('ASCII_HEAD') we use::
 
-    >>> kwargs['config']['CATALOG_TYPE'] = 'FITS_LADC'
+    >>> kwargs['config']['CATALOG_TYPE'] = 'FITS_LDAC'
 
 In this quick example we will not use a filter to assist SExtractor in finding sources so
 we set::
